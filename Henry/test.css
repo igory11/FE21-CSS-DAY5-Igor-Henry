@@ -1,0 +1,73 @@
+body {
+  position: relative;
+  width: 80%;
+  border: gray groove 0.2px;
+}
+
+body p {
+  font-color: #6ea993;
+}
+
+header, footer {
+  position: relative;
+  background: #39342d;
+  color: #6ea993;
+  height: 5vh;
+  text-align: center;
+  padding: 5%;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+header h1, header p, footer h1, footer p {
+  font-size: 3vw;
+  color: #6ea993;
+}
+
+aside {
+  width: 12vw;
+  height: 42vh;
+  float: left;
+  margin: 10%;
+}
+
+aside p {
+  position: relative;
+}
+
+p img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+nav {
+  position: relative;
+  height: 4vw;
+  margin: 0;
+  background: #307981;
+  color: lightgrey;
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 1% 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 0px 10px;
+}
+
+main {
+  position: alternative;
+  background: #f9f2d8;
+  font-size: 1.2em;
+  font-family: courier;
+  text-align: justify;
+  padding: 10px 30px;
+}
+/*# sourceMappingURL=test.css.map */
